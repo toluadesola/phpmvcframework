@@ -1,0 +1,15 @@
+{
+    "name": "user/mvcframework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "toluadesola",
+            "email": "t.toluadesola@gmail.com"
+        }
+    ],
+    "require": {}
+}

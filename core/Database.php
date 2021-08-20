@@ -63,7 +63,7 @@ class Database
         $str = implode(",", array_map(fn($m) => "('$m')", $newMigrations));
         $statement = $this->pdo->prepare("INSERT INTO migrations (migration) VALUES 
             $str
-            ");
+            ")
         $statement->execute();
     }
 
